@@ -1,0 +1,26 @@
+{
+  "model": "XGBoost",
+  "features": [
+    "pipe_age_yrs",
+    "diameter_mm",
+    "burial_depth_m",
+    "num_prior_repairs",
+    "avg_pressure_bar",
+    "pressure_variance",
+    "avg_flow_lps",
+    "flow_variance",
+    "pressure_drop_pct",
+    "soil_temp_c",
+    "elevation_m",
+    "material_enc",
+    "soil_type_enc",
+    "zone_enc"
+  ],
+  "test_roc_auc": 0.9858,
+  "test_f1": 0.8042,
+  "top_shap_feats": [
+    "pipe_age_yrs",
+    "pressure_variance",
+    "material_enc"
+  ]
+}

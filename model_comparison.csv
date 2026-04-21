@@ -1,0 +1,5 @@
+Model,CV ROC-AUC,Test ROC-AUC,Test F1,Test Avg-P
+Logistic Regression,0.9737 ± 0.0035,0.9687,0.5735,0.7499
+Random Forest,0.9994 ± 0.0002,0.9786,0.7109,0.8253
+Gradient Boosting,0.9994 ± 0.0002,0.9836,0.8031,0.8903
+XGBoost,0.9997 ± 0.0001,0.9858,0.8042,0.9091
